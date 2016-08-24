@@ -55,16 +55,24 @@ img {
 }
 
 .sidebar ul {
+		width: 80%;
 		display: flex;
 		flex-direction: column;
-		width: 80%;
+		border: 1px solid #999;
+}
+
+.sidebar li {
+	border-bottom: 1px solid #999;
+}
+
+.sidebar li:last-child {
+	border-bottom: 0;
 }
 
 .sidebar a {
 		display: block;
 		width: auto;
 		padding-left: 24px;
-		border: 1px solid #999;
 		color: #999;
 		line-height: 36px;
 		text-decoration: none;
@@ -108,7 +116,7 @@ img {
 .footer a {
 		display: block;
 		padding: 0 30px;
-		color: #000;	
+		color: #000;
 		line-height: 40px;
 		text-decoration: none;
 }
