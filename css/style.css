@@ -30,6 +30,8 @@ img {
 		float: left;
 		padding: 12px 30px;
 		border-left: 1px solid transparent;
+		border-right: 1px solid transparent;
+
 }
 
 .menu li:hover {
