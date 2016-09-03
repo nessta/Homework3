@@ -1,37 +1,38 @@
 body {
-		font-family: Arial, sans-serif;
+		font-family: 'Open Sans', Arial, sans-serif;
 }
 
-#wrapper {
-		width: 960px;
+.wrapper {
+		width: 966px;
 		margin: 0 auto;
-		padding: 0 40px;
+		padding: 0 47px 0 46px;
 		background: #fff;
+		-moz-box-shadow: 0 0 10px #777;
+		-webkit-box-shadow: 0 0 10px #777;
 		box-shadow: 0 0 10px #777;
 }
 
 /*HEADER*/
 img {
-		margin-top: 35px;
-		margin-bottom: 35px;
-}
-
-.header a {
-		color: #fff;
-		text-decoration: none;
+		margin-top: 50px;
+		margin-bottom: 37px;
 }
 
 .menu {
 		background: #666;
 }
 
+.menu a {
+		color: #fff;
+		text-decoration: none;
+}
+
 .menu li {
 		position: relative;
 		float: left;
-		padding: 12px 30px;
-		border-left: 1px solid transparent;
+		padding: 12px 57px 12px 22px;
 		border-right: 1px solid transparent;
-
+		border-left: 1px solid transparent;
 }
 
 .menu li:hover {
@@ -48,7 +49,7 @@ img {
 }
 
 .conteiner {
-		padding: 30px 0;
+		margin-top: 40px;
 }
 
 .sidebar {
@@ -57,7 +58,7 @@ img {
 }
 
 .sidebar ul {
-		width: 80%;
+		width: 82%;
 		display: flex;
 		flex-direction: column;
 		border: 1px solid #999;
@@ -74,9 +75,10 @@ img {
 .sidebar a {
 		display: block;
 		width: auto;
-		padding-left: 24px;
+		padding-left: 22px;
 		color: #999;
-		line-height: 36px;
+		font-size: 13px;
+		line-height: 39px;
 		text-decoration: none;
 }
 
@@ -87,7 +89,7 @@ img {
 }
 
 .content {
-		width: 65%;
+		width: 70%;
 		float: right;
 }
 
@@ -97,7 +99,9 @@ img {
 }
 
 .content p {
-		padding: 30px;
+		padding: 33px 30px 30px 22px;
+		font-size: 13px;
+		line-height: 21px;
 		text-align: left;
 		box-sizing: border-box;
 }
@@ -106,6 +110,7 @@ img {
 .footer {
 		display: flex;
 		flex-direction: row;
+		margin-top: 30px;
 		padding-bottom: 35px;
 }
 
@@ -117,8 +122,9 @@ img {
 
 .footer a {
 		display: block;
-		padding: 0 30px;
+		padding: 0 66px 0 27px;
 		color: #000;
+		font-size: 13px;
 		line-height: 40px;
 		text-decoration: none;
 }
@@ -129,8 +135,9 @@ img {
 
 .footer p {
 		width: 20%;
-		padding-right: 25px;
+		padding-right: 26px;
 		background-color: #ccc;
+		font-size: 13px;
 		line-height: 40px;
 		text-align: right;
 }
