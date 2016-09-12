@@ -19,20 +19,35 @@ img {
 }
 
 .menu {
+		display: flex;
 		background: #666;
 }
 
 .menu a {
 		color: #fff;
+		font-size: 15px;
 		text-decoration: none;
 }
 
 .menu li {
-		position: relative;
-		float: left;
-		padding: 12px 57px 12px 22px;
+		display: flex;
+		flex-direction: row;
+		padding: 0 22px;
 		border-right: 1px solid transparent;
 		border-left: 1px solid transparent;
+		line-height: 40px;
+		text-align: center;
+}
+
+.menu li:first-child {
+		width: 120px;
+		padding-right: 0;
+		padding-left: 23px;
+		text-align: left;
+}
+
+.menu li:nth-child(3) {
+	padding: 0 60px;
 }
 
 .menu li:hover {
@@ -109,7 +124,6 @@ img {
 	/*FOOTER*/
 .footer {
 		display: flex;
-		flex-direction: row;
 		margin-top: 30px;
 		padding-bottom: 35px;
 }
@@ -117,15 +131,30 @@ img {
 .footer ul {
 		width: 80%;
 		display: flex;
+		flex-direction: row;
 		background: #ccc;
 }
 
+.footer li {
+		padding: 0 25px;
+		line-height: 40px;
+		text-align: center;
+}
+
+.footer li:first-child {
+		width: 122px;
+		padding-right: 0;
+		padding-left: 23px;
+		text-align: left;
+}
+
+.footer li:nth-child(3) {
+	padding: 0 69px;
+}
+
 .footer a {
-		display: block;
-		padding: 0 66px 0 27px;
 		color: #000;
 		font-size: 13px;
-		line-height: 40px;
 		text-decoration: none;
 }
 
